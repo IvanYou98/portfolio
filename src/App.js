@@ -1,9 +1,18 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 export default function App() {
-  return (
-      <div>
-        <h1 className="text=2xl font-bold">Hello</h1>
-      </div>
-  );
+    return (
+        <div>
+            <Navbar/>
+            <About/>
+            <Skills/>
+            <Work/>
+            <Contact/>
+        </div>
+    );
 }
