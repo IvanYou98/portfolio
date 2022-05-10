@@ -5,6 +5,7 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
+import Java from '.../assets/java.png'
 import FireBase from '../assets/firebase.png';
 import AWS from '../assets/aws.png';
 import GitHub from '../assets/github.png';
@@ -51,8 +52,8 @@ const Skills = () => {
                         <p className='my-4'>MONGO DB</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={AWS} alt="HTML icon" />
-                        <p className='my-4'>AWS</p>
+                        <img className='w-20 mx-auto' src={Java} alt="HTML icon" />
+                        <p className='my-4'>Java</p>
                     </div>
                 </div>
             </div>
